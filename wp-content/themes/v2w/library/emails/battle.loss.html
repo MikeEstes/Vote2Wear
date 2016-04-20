@@ -1,0 +1,181 @@
+<html>
+<head>
+<style type="text/css">
+html { font: 13px "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif; padding: 20px; position: relative; text-align: center; background: #efefef; }
+
+#header, #body { width: 700px; margin: 0 auto; text-align: left; }
+#body { background: #0c121d; padding: 40px; }
+
+h1 { font-size: 30px; margin-bottom: 4px; }
+h2 { margin-top: 0; color: #999; font-weight: normal; }
+
+address { font-style: normal; }
+fieldset { border: none; border-top: 1px solid #dadada; margin: 20px 40px 20px 0; }
+fieldset legend { display: block; font-weight: bold; color: #999; }
+table { clear: both; }
+table.transaction th { text-align: left; }
+.labels { width: 100%; }
+table.labels td { vertical-align: top; }
+h1 { margin-bottom: 0; }
+p { margin-bottom: 24px; }
+.im { color:#848f95; }
+
+.order { width: 100%; overflow: hidden; border: none; }
+.order td { border: none; }
+.order th { font-weight: bold; text-align: left; }
+.order .item { width: 50%; }
+.order td.qty { text-align: center; }
+
+.order .money,
+.order .total,
+.order .buttons td { text-align: right; }
+.order .remove { font-size: 12px; }
+
+.order tr.totals th,
+.order tr.totals td { padding: 10px 0 0 0; }
+</style>
+</head>
+<div id="body">
+		<div id="receipt" class="shopp">
+            
+            <table width="100%" align="center" bgcolor="#0c121d" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td align="center">	
+                    
+                    	<table width="700" align="center" bgcolor="#0c121d" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td width="100%">
+					
+						<table width="640" align="center" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td width="100%">
+									
+									<?php /* header row */ ?>
+									<table width="640" align="center" bgcolor="#0c121d" border="0" cellpadding="0" cellspacing="0">
+                                    	<tr>
+                                        	<td height="22"></td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td style="font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#848f95;">Vote 2 Wear Battle Notificaiton</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td height="36"></td>	
+                                        </tr>
+									</table>
+									<?php /* end header row */ ?>
+                                    
+                                    <?php /* main row */ ?>
+									<table width="640" align="center" bgcolor="#212834" border="0" cellpadding="0" cellspacing="0">
+                                    	<tr>
+                                        	<td height="130">
+                                            	<img src="%template_url%/library/images/email/header.jpg" width="640" height="130" alt="" style="display:block;" />
+                                            </td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td>
+                                            
+                                            	<?php /* primary content */ ?>
+                                                <table width="530" align="center" bgcolor="#212834" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td style="font-family:Helvetica, Arial, sans-serif; font-weight:bold; font-size:18px; color:#FFF; text-align:center;">You have lost your battle</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                    	<td height="20"></td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                    	<td style="font-family:Helvetica, Arial, sans-serif; font-size:14px; color:#848f95; line-height:1.4em; text-align:center;">
+                                                            Your battle has just ended and unfortunately your design lost. You can view this battle by clicking <a href="%url%" style="border:none;">here</a>. 
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                    	<td height="40"></td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                    	<td height="45"></td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                    	<td height="30"></td>
+                                                    </tr>
+                                                    
+                                                </table>
+                                                <?php /* end primary content */ ?>
+                                            
+                                            </td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td height="40"></td>	
+                                        </tr>
+									</table>
+									<?php /* end main row */ ?>
+                                    
+                                    <?php /* footer row */ ?>
+									<table width="640" align="center" bgcolor="#0c121d" border="0" cellpadding="0" cellspacing="0">
+                                    	<tr>
+                                        	<td colspan="2" height="25"></td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td width="50%" height="42">
+                                            	<img src="%template_url%/library/images/email/footer-logo.jpg" width="109" height="42" alt="" style="display:block;" />
+                                            </td>
+                                            
+                                            <td width="50%" height="42">
+                                            
+                                            	<table width="135" align="right" border="0" cellpadding="0" cellspacing="0">
+                                                	<tr>
+                                                    	<td width="40" height="42"><a href="#" style="border:none;display:block;"><img src="%template_url%/library/images/email/facebook.jpg" width="40" height="42" alt="" style="display:block;" /></a></td>
+                                                        <td width="40" height="42"><a href="#" style="border:none;display:block;"><img src="%template_url%/library/images/email/twitter.jpg" width="40" height="42" alt="" style="display:block;" /></a></td>
+                                                        <td width="40" height="42"><a href="#" style="border:none;display:block;"><img src="%template_url%/library/images/email/pinterest.jpg" width="40" height="42" alt="" style="display:block;" /></a></td>
+                                                        <td width="15" height="42"></td>
+                                                    </tr>
+                                                </table>
+                                            
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td colspan="2" height="22"></td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td colspan="2" height="1" bgcolor="#FFF"></td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td colspan="2" height="28"></td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td colspan="2" style="font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#848f95; text-align:center;">&copy; 2015 Vote 2 Wear. All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp; <a href="http://make.wearespry.com/v2w/terms" style="color:#9aef9b; text-decoration:underline;">Privacy Policy</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="http://make.wearespry.com/v2w/terms" style="color:#9aef9b; text-decoration:underline;">Terms &amp; Conditions</a></td>	
+                                        </tr>
+                                        
+                                        <tr>
+                                        	<td colspan="2" height="50"></td>	
+                                        </tr>
+									</table>
+									<?php /* end footer row */ ?>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        </td>
+                        </tr>
+                        </table>
+                        
+                    </td>
+                </tr>
+            </table>
+            
+		</div>
+	</div>
+</html>

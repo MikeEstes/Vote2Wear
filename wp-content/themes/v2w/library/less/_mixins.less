@@ -1,0 +1,282 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Mixins & Constants Stylesheet
+
+This is where you can take advantage of LESS' great features: 
+Mixins & Constants. I won't go in-depth on how they work exactly,
+there are a few articles below that will help do that. What I will
+tell you is that this will help speed up simple changes like
+changing a color or adding CSS3 techniques like box shadow and
+border-radius.
+
+A WORD OF WARNING: It's very easy to overdo it here. Be careful and
+remember less is more. 
+
+******************************************************************/
+
+/*********************
+FIX IE7 INLINE-BLOCK
+*********************/
+.fixIE7 {
+	*display:inline;
+	*zoom:1;
+}
+
+/*********************
+CLEARFIXIN'
+*********************/
+
+// Contain floats: nicolasgallagher.com/micro-clearfix-hack/
+.clearfix {
+  zoom: 1;
+	&:before, &:after { content: ""; display: table; }
+	&:after { clear: both; }
+}
+
+/*********************
+TOOLS
+*********************/
+
+* { 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing:    border-box; 
+	box-sizing:         border-box; 
+}
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+@black:#000;
+@white:#fff;
+@offwhite:#d0d0d3;
+
+@bgcolor:#161c27;
+@green:#7fc97a;
+@red:#d23f3b;
+@grey:#2e333d;
+@lightgrey:#c5c7c9;
+@darkblue:#283142;
+
+/*********************
+TYPOGRAPHY
+*********************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,700,100,400,300);
+
+@sans-serif:"Helvetica Neue", Helvetica, Arial, sans-serif; 
+@serif:"Georgia", Cambria, Times New Roman, Times, serif; 
+
+@roboto:'Roboto', sans-serif;
+@effra:"effra", sans-serif;
+
+/* text alignment */
+.text-left   { text-align: left; }
+.text-center { text-align: center; }
+.text-right  { text-align: right; }
+
+.big-grn-title {
+	margin-bottom: 15px;
+	color: @green;
+	font-weight: 100;
+	font-family: @roboto;
+	font-size: 50px;
+	text-align: center; 
+}
+
+/*********************
+BUTTONS
+*********************/
+
+.btn1 {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: @green;
+	font-size: 14px;
+	font-weight: bold;
+	&:hover {
+		color: @white;
+		border-color: @green;
+	}
+}
+
+.btn2 {
+	display: inline-block;
+	.fixIE7;
+	background: none;
+	border: @green 1px solid;
+	.border-radius(3px);
+	color: @green;
+	text-transform: uppercase;
+	font-family: @effra;
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 50px;
+	outline-style: none;
+	cursor: pointer;
+	&:hover {
+		color: @white;
+	}
+}
+
+.btn3 {
+	display: inline-block;
+	.fixIE7;
+	background: none;
+	border: #FFF 1px solid;
+	.border-radius(3px);
+	color: @green;
+	text-transform: uppercase;
+	font-family: @effra;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 60px;
+	outline-style: none;
+	cursor: pointer;
+	&:hover {
+		color: @white;
+	}
+}
+
+/*********************
+BORDER RADIUS
+*********************/
+
+/* 
+NOTE: For older browser support (and some mobile), 
+don't use the shorthand to define *different* corners. 
+
+USAGE: .border-radius(4px); 
+
+*/
+.border-radius(@radius: 4px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+/*********************
+BACKGROUND SIZE
+*********************/
+
+/*
+USAGE: .background-size(4px, 4px); 
+*/
+
+.background-size(@xpos: 50%, @ypos: auto) {
+  -webkit-background-size: @xpos @ypos;
+     -moz-background-size: @xpos @ypos;
+          background-size: @xpos @ypos;
+}
+
+
+/*********************
+TRANISTIONS
+*********************/
+
+/* .transition(all,2s); */
+.transition(@what: all, @time: 0.2s, @transition: ease-in-out) {
+	-webkit-transition: @what @time @transition;
+	-moz-transition:    @what @time @transition;
+	-ms-transition:     @what @time @transition;
+	-o-transition:      @what @time @transition;
+	transition:         @what @time @transition;
+}
+
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can 
+really slow down your CSS. Don't overdo it.
+*********************/
+
+/* .css-gradient(#dfdfdf,#f8f8f8); */
+.css-gradient(@from: #dfdfdf, @to: #f8f8f8) {
+	background-color: @to;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(@from), to(@to));
+	background-image: -webkit-linear-gradient(top, @from, @to);
+	background-image: -moz-linear-gradient(top, @from, @to);
+	background-image: -o-linear-gradient(top, @from, @to);
+	background-image: linear-gradient(to bottom, @from, @to);
+}
+
+/*********************
+BOX SHADOW
+*********************/
+
+/* .boxShadow(0,0,4px,0,#444); */
+.boxShadow(@x: 0, @y: 0, @radius: 4px, @spread: 0, @color: rgba(0,0,0,0.5)) when (isnumber(@x)) {
+	-webkit-box-shadow: @x @y @radius @spread @color;
+	   -moz-box-shadow: @x @y @radius @spread @color;
+			box-shadow: @x @y @radius @spread @color; 
+}
+/* .boxShadow(none); */
+.boxShadow(@x: none) when (iskeyword(@x)) {
+	-webkit-box-shadow: @x;
+	   -moz-box-shadow: @x;
+			box-shadow: @x; 
+}
+
+/*********************
+OPACITY
+*********************/
+.opacity(@o: 0) {
+	-webkit-opacity: @o;
+	-moz-opacity: @o;
+	filter:alpha(opacity=@o);
+	opacity:@o;
+}
+
+/*********************
+PLACEHOLDER
+*********************/
+.placeholder(@c: #fff) {
+	&::-webkit-input-placeholder {
+		color: @c;
+	}
+	
+	&:-moz-placeholder { /* Firefox 18- */
+	   color: @c;  
+	}
+	
+	&::-moz-placeholder {  /* Firefox 19+ */
+	   color: @c;  
+	}
+	
+	&:-ms-input-placeholder {  
+	   color: @c;  
+	}
+}
+
+.green-outline {
+	position:relative;
+	display:inline-block;
+	height:50px;
+	line-height:46px;
+	text-align:center;
+	cursor:pointer;
+	outline:none;
+	color:@green;
+	border:solid 1px @green;
+	font-family:@effra;
+	font-weight:700;
+	font-style:normal;	
+	font-size:13px;
+	text-transform:uppercase;
+	text-decoration:none;
+	background:none;
+	.border-radius(3px);
+}
+
+.calc(@prop; @val) {
+  @{prop}: calc(~'@{val}');
+  @{prop}: -moz-calc(~'@{val}');
+  @{prop}: -webkit-calc(~'@{val}');
+  @{prop}: -o-calc(~'@{val}');
+}
