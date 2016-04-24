@@ -1,0 +1,91 @@
+[04-Dec-2015 17:10:56 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vote2wear/public_html/wp-content/themes/v2w/index.php on line 1
+[05-Dec-2015 07:05:51 UTC] PHP Fatal error:  Call to undefined function alert() in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 40
+[05-Dec-2015 07:23:49 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 41
+[05-Dec-2015 07:23:54 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 41
+[05-Dec-2015 08:32:07 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:09 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:10 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:13 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:47 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:49 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:54 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:59 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:32:59 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:00 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:00 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:00 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:00 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:00 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:01 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:21 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:22 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:22 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:22 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:23 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:40 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:41 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 08:33:43 UTC] PHP Parse error:  syntax error, unexpected '$errors' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process.php on line 12
+[05-Dec-2015 20:07:05 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:07:09 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:07:12 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:07:23 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:08:20 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:08:22 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:08:24 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:08:49 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:09:07 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:09:55 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:11:37 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:11:40 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:11:43 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:11:53 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:13:00 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:13:52 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:14:02 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:14:05 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:14:10 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:20:35 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:20:44 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 54
+[05-Dec-2015 20:22:14 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:16 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:22 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:22 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:31 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:34 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:34 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:22:34 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:23:27 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:23:29 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:23:31 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 45
+[05-Dec-2015 20:23:54 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:55 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:55 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:55 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:55 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:57 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:57 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:57 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:57 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:58 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:23:58 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:24:35 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:24:38 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:24:39 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:24:39 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:24:49 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[05-Dec-2015 20:24:51 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 56
+[21-Dec-2015 22:01:32 UTC] PHP Parse error:  syntax error, unexpected '$recipient' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 35
+[21-Dec-2015 22:01:33 UTC] PHP Parse error:  syntax error, unexpected '$recipient' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 35
+[21-Dec-2015 22:01:47 UTC] PHP Parse error:  syntax error, unexpected '$recipient' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 35
+[21-Dec-2015 22:02:05 UTC] PHP Parse error:  syntax error, unexpected '$recipient' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 35
+[21-Dec-2015 22:02:58 UTC] PHP Parse error:  syntax error, unexpected '$recipient' (T_VARIABLE) in /home/vote2wear/public_html/wp-content/themes/v2w/process-legal.php on line 35

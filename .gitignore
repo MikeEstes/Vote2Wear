@@ -1,0 +1,8 @@
+*dwsync.xml
+*.DS_Store
+_notes
+node_modules
+wp-config.php
+wp-content/uploads
+wp-content/upgrade
+wp-content/shopp

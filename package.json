@@ -1,0 +1,16 @@
+{
+  "name": "v2w",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
