@@ -206,3 +206,6 @@ Stack trace:
 [01-Feb-2016 21:45:34 America/New_York] PHP Fatal error:  Call to a member function get_email() on a non-object in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 366
 [01-Feb-2016 23:02:41 America/New_York] PHP Fatal error:  Call to a member function get_email() on a non-object in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 366
 [02-Feb-2016 20:48:41 America/New_York] PHP Fatal error:  Call to a member function get_email() on a non-object in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 366
+[24-Apr-2016 16:28:22 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
+[24-Apr-2016 16:28:34 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
+[24-Apr-2016 16:31:36 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
