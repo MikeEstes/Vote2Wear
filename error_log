@@ -6634,32 +6634,3 @@ Stack trace:
 [20-Apr-2016 12:39:58 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'devuser'@'localhost' (using password: YES) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1488
 [20-Apr-2016 12:39:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1518
 [20-Apr-2016 12:39:58 UTC] PHP Warning:  mysql_connect(): Access denied for user 'devuser'@'localhost' (using password: YES) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1518
-[21-Apr-2016 03:01:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2003): Can't connect to MySQL server on '111.111.111.11' (110) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1489
-[21-Apr-2016 03:01:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1515
-[21-Apr-2016 03:01:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2003): Can't connect to MySQL server on '111.111.111.11' (110) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1489
-[21-Apr-2016 03:01:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1515
-[21-Apr-2016 03:02:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2003): Can't connect to MySQL server on '111.111.111.11' (110) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1489
-[21-Apr-2016 03:02:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1515
-[21-Apr-2016 03:02:11 UTC] PHP Warning:  mysql_connect(): Can't connect to MySQL server on '111.111.111.11' (4) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1515
-[21-Apr-2016 03:02:51 UTC] PHP Warning:  mysql_connect(): Can't connect to MySQL server on '111.111.111.11' (4) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1515
-[21-Apr-2016 03:03:03 UTC] PHP Warning:  mysql_connect(): Can't connect to MySQL server on '111.111.111.11' (4) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1515
-[24-Apr-2016 16:20:13 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:21:27 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:32:08 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:32:16 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:34:34 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:35:15 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:36:18 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:36:42 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 16:37:44 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
-[24-Apr-2016 18:14:14 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
-Stack trace:
-#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
-#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
-#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
-#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
-#4 /home/vote2wear/public_html/wp-includes/template-loader.php(75): include('/home/vote2wear...')
-#5 /home/vote2wear/public_html/wp-blog-header.php(19): require_once('/home/vote2wear...')
-#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
-#7 {main}
-  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
