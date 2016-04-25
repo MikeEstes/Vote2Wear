@@ -6634,3 +6634,257 @@ Stack trace:
 [20-Apr-2016 12:39:58 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'devuser'@'localhost' (using password: YES) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1488
 [20-Apr-2016 12:39:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1518
 [20-Apr-2016 12:39:58 UTC] PHP Warning:  mysql_connect(): Access denied for user 'devuser'@'localhost' (using password: YES) in /home/vote2wear/public_html/wp-includes/wp-db.php on line 1518
+[25-Apr-2016 01:56:39 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 02:04:16 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 04:21:12 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 05:14:07 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 06:12:22 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 06:21:32 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 07:13:53 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 07:32:26 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 08:18:54 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 10:29:24 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 10:39:49 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 11:39:26 America/New_York] PHP Notice:  Undefined index: pagename in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/V2W.php on line 707
+[25-Apr-2016 11:39:26 America/New_York] PHP Notice:  Undefined index: pagename in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/V2W.php on line 544
+[25-Apr-2016 11:39:26 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/V2W.php:707) in /home/vote2wear/public_html/wp-includes/pluggable.php on line 1228
+[25-Apr-2016 11:47:39 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 11:53:50 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 12:27:20 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 12:30:28 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 12:36:27 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 12:57:37 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 14:17:18 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(237): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 14:26:58 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid post supplied. Unable to create design.' in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php:57
+Stack trace:
+#0 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(236): Design->__construct(NULL)
+#1 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Battle.php(36): Battle->get_designs()
+#2 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Designer.php(235): Battle->__construct(Object(WP_Post))
+#3 /home/vote2wear/public_html/wp-content/themes/v2w/author.php(56): Designer->get_battles()
+#4 /home/vote2wear/public_html/wp-includes/template-loader.php(89): include('/home/vote2wear...')
+#5 /home/vote2wear/public_html/wp-blog-header.php(16): require_once('/home/vote2wear...')
+#6 /home/vote2wear/public_html/index.php(17): require('/home/vote2wear...')
+#7 {main}
+  thrown in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/Design.php on line 57
+[25-Apr-2016 18:55:59 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/author-template.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 140
+[25-Apr-2016 18:55:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/author-template.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 140
+[25-Apr-2016 18:55:59 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/author-template.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 140
+[25-Apr-2016 18:55:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/author-template.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 140
+[25-Apr-2016 18:56:36 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/default-constants.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 22
+[25-Apr-2016 18:56:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/default-constants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 22
+[25-Apr-2016 18:57:25 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:57:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:57:26 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:57:26 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:57:52 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:57:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:57:52 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:57:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:58:21 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:58:21 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:07 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:07 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:08 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:08 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:32 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 18:59:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:00:35 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:00:35 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:00:35 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:00:35 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:01:02 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:01:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:01:02 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:01:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:01:04 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:01:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:03:35 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:03:35 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:03:36 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:03:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:04:04 UTC] PHP Warning:  require(/home/vote2wear/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/vote2wear/public_html/wp-settings.php on line 21
+[25-Apr-2016 19:04:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/vote2wear/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vote2wear/public_html/wp-settings.php on line 21

@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 [25-Apr-2016 16:23:19 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
 [25-Apr-2016 16:23:29 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
+=======
+[25-Apr-2016 15:16:49 America/New_York] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/vote2wear/public_html/wp-includes/meta.php on line 865
+>>>>>>> 9af804779feb9e2653e6ff332b0aa4fd726fe63a
