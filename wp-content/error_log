@@ -54,3 +54,4 @@ Stack trace:
 #5 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/V2W.php(132): Battle::create(Object(Design), Object(Design), Object(DateTime))
 #6 /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/BattleCloser.php(185): V2W::create_daily_battles()
 #7 [internal function]: in /home/vote2wear/public_html/wp-content/themes/v2w/library/includes/V2WMailer.php on line 98
+[25-Apr-2016 11:40:05 America/New_York] PHP Fatal error:  Call to undefined function get_field() in /home/vote2wear/public_html/wp-content/themes/v2w/shopp/product.php on line 12
