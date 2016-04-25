@@ -76,7 +76,7 @@
 	
 			<div id="btmbar">
 	
-				<a href="<?php echo get_option('siteurl'); ?>" title="Vote 2 Wear" class="logo"></a>
+				<a href="<?php echo get_option('siteurl'); ?>" title="Vote2Wear" class="logo"></a>
 		
 				<nav id="nav">
 					<?php wp_nav_menu(array(
