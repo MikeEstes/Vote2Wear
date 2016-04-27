@@ -705,7 +705,7 @@ class V2W {
 
 		//if already logged in, redirect to account
 		if( in_array($wp_query->query['pagename'], array('login', 'register')) && is_user_logged_in() ) {
-			wp_redirect('/account');
+			wp_redirect('/shop/account/');
 			exit;
 		}
 
