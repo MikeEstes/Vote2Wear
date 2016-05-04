@@ -62,6 +62,9 @@
 						<?php if( is_user_logged_in() ) : ?>
 							<?php $current_user = wp_get_current_user(); ?>
 							<a href="<?php echo get_option('siteurl'); ?>/shop/account"><?php echo $current_user->user_login; ?></a>
+							<li class="logout-url">
+								<a href="<?php echo get_option('siteurl'); ?>/shop/account/?logout" class="logout">Logout</a>
+							</li>
 						<?php else : ?>
 							<a href="<?php echo get_option('siteurl'); ?>/login">Login</a>
 						<?php endif; ?>
