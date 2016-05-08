@@ -610,7 +610,7 @@ class V2W {
 	*/
 	public static function register_via_get_response($wpuser)
 	{
-		self::dd($wpuser);
+		//self::dd($wpuser);
 		/* POST /contacts
 			"name": $wpuser['first_name'],
 			"email": $wpuser['user_email'],
