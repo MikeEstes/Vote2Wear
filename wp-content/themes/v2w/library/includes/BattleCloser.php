@@ -168,11 +168,8 @@ class BattleCloser {
 	{
 	
 		//only handle valid cron requests ?iscron=yes&token=[VALID TOKEN]
-		//if( ! isset($_GET['iscron']) || ! $_GET['iscron'] == 'yes' || ! isset($_GET['token']) || ! $_GET['token'] == V2W_SECURITY_TOKEN )
 		if( ! isset($_GET['token']) || $_GET['token'] != V2W_SECURITY_TOKEN )
 			return;
-
-		mail('sregge@gmail.com', 'V2W CRON', 'Successfully executing the cron job. ' . $_GET['token']);
 
 		//get action
 		$service = $_GET['service'] ?: false;

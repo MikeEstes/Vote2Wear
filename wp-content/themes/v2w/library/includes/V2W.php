@@ -7,14 +7,7 @@ add_action('shopp_customer_update', array('V2W', 'update_user_profile'));
 add_action('battle_created', array('V2W', 'battle_created_notify'), 10, 1);
 add_action('design_denied', array('V2W', 'design_denied_notify'), 10, 2);
 
-add_action('wp_ajax_upload_profile_pic', array('V2W', 'ajax_upload_profile_pic'));	//only for logged in users
-//add_action('wp_ajax_nopriv_upload_profile_pic', array('V2W', 'ajax_upload_profile_pic'));
-
-//when an admin denies a battle
-//add_action(  'draft_to_trash',  array('V2W', 'admin_denied_design'), 10, 1 );
-
-//handle fatal errors
-//register_shutdown_function(array('V2W', 'fatal_errors'));
+add_action('wp_ajax_upload_profile_pic', array('V2W', 'ajax_upload_profile_pic'));	
 
 /**
  *	General class for managing
@@ -73,14 +66,12 @@ class V2W {
 	 *	following day based on approved
 	 *	designs submitted today
 	 *
-	 *	@todo create cron to run this action daily
 	 *	@todo currently pulls all published designs for the day, even if they are already in a battle. Perhaps prevent this?
 	 *
 	 *	@return (array) Battle objects
 	 */
 	public static function create_daily_battles() 
 	{
-		//$date = new DateTime('today');
 		$date = new DateTime('yesterday');
 
 		$designs = get_posts(array(
@@ -96,27 +87,13 @@ class V2W {
 		));
 
 		//@ToDo: If there is no designs, notify admin
-		/*if( empty($designs) || count($designs) < 2 ) {			
-			mail('admin@vote2wear.com', 'Daily Battles', '');
-			return;
-		}*/
-		/*
-		if( empty($designs))
-		{			
-			V2W::dd( "Designs array is empty!" );
+		if( empty($designs) || count($designs) < 2 ) {
+			mail('sregge@gmail.com', 'Battles Not Created', 'There were not enough designs to create Daily Battles.');
 			return;
 		}
-		else if (count($designs) < 2 ) 
-		{			
-			V2W::dd( count($designs) );
-			return;
-		}
-		*/
 
 		//create battles
 		$_battles = array();
-
-		//V2W::dd($designs);
 
 		while( ! empty($designs) ) {
 
@@ -128,7 +105,6 @@ class V2W {
 			$b = new Design( array_shift($designs) );
 
 			//create battle
-			//$battle = Battle::create( $a, $b, new DateTime('tomorrow') );
 			$battle = Battle::create( $a, $b, new DateTime('today') );
 
 			$_battles[] = $battle;
@@ -197,7 +173,6 @@ class V2W {
 	 */
 	public static function prettify_time( $time = 0 ) 
 	{
-		//$hours = $time / 3600;
 		$hours = gmdate('g', $time);
 		$mins = gmdate('i', $time);
 		$secs = gmdate('s', $time);
@@ -237,8 +212,6 @@ class V2W {
 		//save reference
 		update_post_meta( $post->ID, '_mens_shirts', $m_shirts );
 		update_post_meta( $post->ID, '_womens_shirts', $w_shirts );
-
-                //self::dd( $design->get_name());
 	}
 
 	/**
@@ -295,8 +268,6 @@ class V2W {
 		$data['tags'] = array( 
 		    'terms' => $productTags
 		);
-		
-		//V2W::dd( $design->get_tags() );
 
 		//build product variants and get original artwork
 		$artwork = get_post_meta( $design->get_post_id(), '_original_artwork', true );
@@ -328,7 +299,6 @@ class V2W {
 					
 					
 					$sku = "{$design->get_post_id()}-{$code}-{$color}-{$final_size}";
-					//$sku = "{$name}-{$code}-{$color}-{$size}";
 
 					//build price
 					$price = (in_array($_size_menu , array('2XL', '3XL', '4XL'))) ? 22.00 : 20.00;
@@ -337,7 +307,6 @@ class V2W {
 					{	
 						//build variants
 						$data['variants'][] = array(
-							//'option' => array('Color' => $color, 'Type' => $type, 'Size' => $size),
 							'option' => array('Type' => $type, 'Color' => $color, 'Size' => $_size_menu),
 							'type' => 'N/A',
 							'price' => $price,
@@ -353,7 +322,6 @@ class V2W {
 					{	
 						//build variants
 						$data['variants'][] = array(
-							//'option' => array('Color' => $color, 'Type' => $type, 'Size' => $size),
 							'option' => array('Type' => $type, 'Color' => $color, 'Size' => $_size_menu),
 							'type' => 'Shipped',
 							'price' => $price,
@@ -369,8 +337,6 @@ class V2W {
 			}
 		}
 		
-		//V2W::dd( $data );
-
 		//attempt to add the product
 		$Product = shopp_add_product( $data );
 
@@ -378,7 +344,6 @@ class V2W {
 		if( ! $Product ) {
 			// @todo Handle product creation failure
 			echo "Unable to add product<br />";
-			//self::dd( $Product );
 		}
 
 		//Set Designer for this product
@@ -545,14 +510,6 @@ class V2W {
 			wp_redirect('login?redirect_to=submit-design&reason=design');
 			exit;
 		}
-
-		/*
-		//if user is an admin, redirect. They can't upload designs via this method. Go figure
-		if( $wp_query->query['pagename'] == 'submit-design' && current_user_can( 'manage_options' ) ) {
-			wp_redirect('/');
-			exit;
-		}
-		*/
 	}
 
 	/**
@@ -627,6 +584,9 @@ class V2W {
 			'lastname' => $data['lastname'],
 			'email' => $data['email']
 		));
+		
+		//Send new User to GetResponse
+		register_via_get_response($wpuser);
 
 		//@ToDo: Handle Shopp register failure. At this point
 		//		 the WP user is created. What now?
@@ -643,7 +603,23 @@ class V2W {
 		return $wpuser;
 
 	}
-
+	
+	
+	/**
+	* Send new User to GetResponse
+	*/
+	public static function register_via_get_response($wpuser)
+	{
+		POST /contacts
+		{
+			"name": $wpuser['first_name'],
+			"email": $wpuser['user_email'],
+			"campaign": {
+				"campaignId": "38971503"
+			}
+		}
+	}
+	
 	/**
 	 *	Controller to register user
 	 *	via AJAX
