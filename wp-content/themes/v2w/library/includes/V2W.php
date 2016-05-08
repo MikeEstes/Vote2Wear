@@ -610,12 +610,12 @@ class V2W {
 	*/
 	public static function register_via_get_response($wpuser)
 	{
-		POST /contacts
+		/* POST /contacts
 			"name": $wpuser['first_name'],
 			"email": $wpuser['user_email'],
 			"campaign": {
 				"campaignId": "38971503"
-			}
+			} */
 	}
 	
 	/**
