@@ -586,7 +586,7 @@ class V2W {
 		));
 		
 		//Send new User to GetResponse
-		register_via_get_response($wpuser);
+		//register_via_get_response($wpuser);
 
 		//@ToDo: Handle Shopp register failure. At this point
 		//		 the WP user is created. What now?
