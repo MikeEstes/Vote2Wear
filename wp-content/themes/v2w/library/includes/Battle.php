@@ -211,12 +211,16 @@ class Battle {
 		
 		if ($key === 'design_a')
 		{
-			voters_a.push($user);
-			console.log( voters_a );
-		} else
+			$voters_a.push($user);
+			console.log( $voters_a );
+		} else if ($key === 'design_b')
 		{
-			voters_b.push($user);
-			console.log( voters_b );
+			$voters_b.push($user);
+			console.log( $voters_b );
+		}
+		else
+		{
+			console.log ( $key );
 		}
 
 		return $vote;
