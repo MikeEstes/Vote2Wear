@@ -8,9 +8,9 @@
             <div class="col left">
                 <div class="inside">
     
-                    <h1 class="page-title">Create Account</h1>					
+                    <h1 class="page-title">Create Account</h1>
                     <div class="divider"></div>
-                        
+    
                     <form action="<?php echo get_option('siteurl'); ?>" method="post" id="form-register" name="join">
     
                         <div class="errors"></div>
@@ -67,7 +67,6 @@
 	</div>
 </main>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 
@@ -108,6 +107,7 @@ jQuery(document).ready(function($) {
 
 		return false;
 	});
+
 });
 </script>
 
