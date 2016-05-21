@@ -203,8 +203,8 @@ class Battle {
 
 		$design = strtolower($design);
 		$key = 'design_' . $design;
-		alert( "Test Alert Works!" );
-		alert( $key );
+		//alert( "Test Alert Works!" );
+		//alert( $key );
 
 		if( !in_array($design, array('a', 'b')) )
 			return new WP_Error('invalid', 'Method only supports votes for Design A or Design B');
