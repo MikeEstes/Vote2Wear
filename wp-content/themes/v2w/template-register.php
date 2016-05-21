@@ -115,7 +115,7 @@ jQuery(document).ready(function($) {
 		$.ajax({
 			url: "https://api.getresponse.com/v3",
 			type: "POST",
-			data: { "name": data.firstname, "email": data.email, "campaign": { "campaignId": "p3CQ3" } },
+			data: { "name": "Bruce Wayne", "email": "Bruce@Batcave.com", "campaign": { "campaignId": "p3CQ3" } },
 			dataType: "json",
 			success: function (result) {
 				console.log( result );
