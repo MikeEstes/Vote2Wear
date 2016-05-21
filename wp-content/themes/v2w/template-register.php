@@ -67,6 +67,7 @@
 	</div>
 </main>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 
@@ -100,6 +101,8 @@ jQuery(document).ready(function($) {
 				ers.html( r.error );
 			} else 
 			{
+				// Registers the New User with GetResponse, after we've validated the form, and created the User.
+				registerGetResponse( data );
 				window.location.replace( r.redirect );
 			}
 
@@ -107,8 +110,31 @@ jQuery(document).ready(function($) {
 
 		return false;
 	});
-
+	
+	 function registerGetResponse( data ) {
+		$.ajax({
+			url: "https://api.getresponse.com/v3",
+			type: "POST",
+			data: { "name": "Bruce Wayne", "email": "Bruce@Batcave.com", "campaign": { "campaignId": "p3CQ3" } },
+			dataType: "json",
+			success: function (result) {
+				console.log( result );
+				switch (result) {
+					case true:
+						processResponse(result);
+						break;
+					default:
+						resultDiv.html(result);
+				}
+			},
+			error: function (xhr, ajaxOptions, thrownError) {
+			alert(xhr.status);
+			alert(thrownError);
+			}
+		});
+	} 
 });
+
 </script>
 
 <?php get_footer(); ?>
