@@ -111,28 +111,28 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 	
-	function registerGetResponse( data )
-{
-	$.ajax({
-		url: "https://api.getresponse.com/v3",
-		type: "POST",
-		data: { "name": data.firstname, "email": data.email, "campaign": { "campainId": "p3CQ3" } },
-		dataType: "json",
-		success: function (result) {
-			console.log( result );
-            switch (result) {
-                case true:
-                    processResponse(result);
-                    break;
-                default:
-                    resultDiv.html(result);
-            }
-        },
-        error: function (xhr, ajaxOptions, thrownError) {
-        alert(xhr.status);
-        alert(thrownError);
-        }
-    });
+	function registerGetResponse( data ) {
+		$.ajax({
+			url: "https://api.getresponse.com/v3",
+			type: "POST",
+			data: { "name": data.firstname, "email": data.email, "campaign": { "campainId": "p3CQ3" } },
+			dataType: "json",
+			success: function (result) {
+				console.log( result );
+				switch (result) {
+					case true:
+						processResponse(result);
+						break;
+					default:
+						resultDiv.html(result);
+				}
+			},
+			error: function (xhr, ajaxOptions, thrownError) {
+			alert(xhr.status);
+			alert(thrownError);
+			}
+		});
+	}
 }
 
 </script>
