@@ -203,15 +203,15 @@ class Battle {
 
 		$design = strtolower($design);
 		$key = 'design_' . $design;
+		console.log ( $key );
 
 		if( !in_array($design, array('a', 'b')) )
 			return new WP_Error('invalid', 'Method only supports votes for Design A or Design B');
 
 		$vote = Votes::place( $this, $this->{$key}, $user );
 		
-		console.log ( $key );
 			
-		if ($key === 'design_a')
+		/* if ($key === 'design_a')
 		{
 			$voters_a.push($user);
 			console.log( $voters_a );
@@ -219,7 +219,7 @@ class Battle {
 		{
 			$voters_b.push($user);
 			console.log( $voters_b );
-		}
+		} */
 
 		return $vote;
 
