@@ -8,14 +8,9 @@
             <div class="col left">
                 <div class="inside">
     
-                    <h1 class="page-title">Create Account</h1>
-                    
-                    <!-- This can be removed after the BETA test. -->                    
-        	    <div class="home-text-main">
-            	    	<div class="small">Design. Battle. Win! <br />Sign up for our community's Open Beta, and start earning money today!</div>
-            	    </div>
+                    <h1 class="page-title">Create Account</h1>					
                     <div class="divider"></div>
-    
+                        
                     <form action="<?php echo get_option('siteurl'); ?>" method="post" id="form-register" name="join">
     
                         <div class="errors"></div>
@@ -72,6 +67,7 @@
 	</div>
 </main>
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 
@@ -105,6 +101,8 @@ jQuery(document).ready(function($) {
 				ers.html( r.error );
 			} else 
 			{
+				// Registers the New User with GetResponse, after we've validated the form, and created the User.
+				//registerGetResponse( data );
 				window.location.replace( r.redirect );
 			}
 
@@ -112,7 +110,29 @@ jQuery(document).ready(function($) {
 
 		return false;
 	});
-
+	
+	 /* function registerGetResponse( data ) {
+		$.ajax({
+			url: "https://api.getresponse.com/v3",
+			type: "POST",
+			data: { "name": "Bruce Wayne", "email": "Bruce@Batcave.com", "campaign": { "campaignId": "p3CQ3" } },
+			dataType: "json",
+			success: function (result) {
+				console.log( result );
+				switch (result) {
+					case true:
+						processResponse(result);
+						break;
+					default:
+						resultDiv.html(result);
+				}
+			},
+			error: function (xhr, ajaxOptions, thrownError) {
+			alert(xhr.status);
+			alert(thrownError);
+			}
+		});
+	}  */
 });
 </script>
 
