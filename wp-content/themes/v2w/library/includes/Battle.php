@@ -203,23 +203,22 @@ class Battle {
 
 		$design = strtolower($design);
 		$key = 'design_' . $design;
-		console.log ( $key );
+		alert( $key );
 
 		if( !in_array($design, array('a', 'b')) )
 			return new WP_Error('invalid', 'Method only supports votes for Design A or Design B');
 
-		$vote = Votes::place( $this, $this->{$key}, $user );
-		
+		$vote = Votes::place( $this, $this->{$key}, $user );		
 			
-		/* if ($key === 'design_a')
+		if ($key === 'design_a')
 		{
-			$voters_a.push($user);
-			console.log( $voters_a );
+			//$voters_a.push($user);
+			alert( $voters_a );
 		} else if ($key === 'design_b')
 		{
-			$voters_b.push($user);
-			console.log( $voters_b );
-		} */
+			//$voters_b.push($user);
+			alert( $voters_b );
+		}
 
 		return $vote;
 
