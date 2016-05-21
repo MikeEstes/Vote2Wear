@@ -119,6 +119,7 @@ jQuery(document).ready(function($) {
 		data: { "name": data.firstname, "email": data.email, "campaign": { "campainId": "p3CQ3" } },
 		dataType: "json",
 		success: function (result) {
+			console.log( result );
             switch (result) {
                 case true:
                     processResponse(result);
@@ -132,7 +133,7 @@ jQuery(document).ready(function($) {
         alert(thrownError);
         }
     });
-};
+}
 
 </script>
 
