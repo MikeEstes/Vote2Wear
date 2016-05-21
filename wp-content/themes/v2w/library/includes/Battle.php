@@ -203,6 +203,7 @@ class Battle {
 
 		$design = strtolower($design);
 		$key = 'design_' . $design;
+		alert( "Test Alert Works!" );
 		alert( $key );
 
 		if( !in_array($design, array('a', 'b')) )
@@ -210,7 +211,7 @@ class Battle {
 
 		$vote = Votes::place( $this, $this->{$key}, $user );		
 			
-		if ($key === 'design_a')
+		/* if ($key === 'design_a')
 		{
 			//$voters_a.push($user);
 			alert( $voters_a );
@@ -218,7 +219,7 @@ class Battle {
 		{
 			//$voters_b.push($user);
 			alert( $voters_b );
-		}
+		} */
 
 		return $vote;
 
