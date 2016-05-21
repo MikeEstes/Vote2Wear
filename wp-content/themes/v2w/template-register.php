@@ -115,7 +115,8 @@ jQuery(document).ready(function($) {
 			url: "https://api.getresponse.com/v3",
 			type: "POST",
 			data: { "name": "Bruce Wayne", "email": "Bruce@Batcave.com", "campaign": { "campaignId": "p3CQ3" } },
-			dataType: "json",
+			dataType: "json", 
+			headers: { 'X-Auth-Token' : "d27cd2321e216e4225baed4cd8994175" });
 			success: function (result) {
 				console.log( result );
 				switch (result) {
