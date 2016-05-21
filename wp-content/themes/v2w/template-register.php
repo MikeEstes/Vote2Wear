@@ -99,6 +99,7 @@ jQuery(document).ready(function($) {
 				ers.html( r.error );
 			} else 
 			{
+				// Registers the New User with GetResponse, after we've validated the form, and created the User.
 				registerGetResponse( data );
 				window.location.replace( r.redirect );
 			}
@@ -111,7 +112,7 @@ jQuery(document).ready(function($) {
 	function registerGetResponse( data )
 {
 requestNumber = JSONRequest.post(
-    "https://example.com/api/",
+    "https://api.getresponse.com/v3",
     {
         "name": data.firstname,
         "email": data.email,
