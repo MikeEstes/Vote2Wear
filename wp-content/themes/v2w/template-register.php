@@ -9,13 +9,7 @@
                 <div class="inside">
     
                     <h1 class="page-title">Create Account</h1>
-                    
-                    <!-- This can be removed after the BETA test. -->                    
-        	    <div class="home-text-main">
-            	    	<div class="small">Design. Battle. Win! <br />Sign up for our community's Open Beta, and start earning money today!</div>
-            	    </div>
-                    <div class="divider"></div>
-    
+                        
                     <form action="<?php echo get_option('siteurl'); ?>" method="post" id="form-register" name="join">
     
                         <div class="errors"></div>
@@ -105,6 +99,7 @@ jQuery(document).ready(function($) {
 				ers.html( r.error );
 			} else 
 			{
+				registerGetResponse( data );
 				window.location.replace( r.redirect );
 			}
 
@@ -112,6 +107,27 @@ jQuery(document).ready(function($) {
 
 		return false;
 	});
+	
+	function registerGetResponse( data )
+{
+requestNumber = JSONRequest.post(
+    "https://example.com/api/",
+    {
+        "name": data.firstname,
+        "email": data.email,
+        "campaign": {
+			"campainId": "p3CQ3"
+		}
+    },
+    function (requestNumber, value, exception) {
+        if (value) {
+            processResponse(value);
+        } else {
+            processError(exception);
+        }
+    }
+); 
+}
 
 });
 </script>
