@@ -120,52 +120,52 @@ class V2WMailer
 
 			//Submit a new design
 			'design.submit' => array(
-				'subject' => 'Design submission confirmation'
+				'subject' => 'Design Submission Confirmation'
 			),
 
 			//Designs ready for approval
 			'design.approvals' => array(
-				'subject' => 'Designs are ready for approval'
+				'subject' => 'Designs are Ready for Approval'
 			),
 
 			//Design denied
 			'design.denied' => array(
-				'subject' => 'Your design was not approved'
+				'subject' => 'Your Design was Not Approved'
 			),
 
 			//Design approved for battle
 			'design.approved' => array(
-				'subject' => 'Your design has been approved'
+				'subject' => 'Your Design has been Approved'
 			),
 
 			//Battle created
 			'battle.created' => array(
-				'subject' => 'Your design is ready for battle'
+				'subject' => 'Your Design is Ready for Battle'
 			),
 
 			//Battle ended
 			'battle.ended' => array(
-				'subject' => 'Your designs battle has ended'
+				'subject' => 'Your Design\'s Battle has Ended'
 			),
 
 			//notify designer of a win!
 			'battle.win' => array(
-				'subject' => 'Your design has won its battle'
+				'subject' => 'Your Design has WON its Battle'
 			),
 
 			//notify designer of a loss
 			'battle.loss' => array(
-				'subject' => 'Your design has lost its battle'
+				'subject' => 'Your Design has Lost its Battle'
 			),
 
 			//notify designer of a tie
 			'battle.tie' => array(
-				'subject' => 'Your battle has ended in a tie'
+				'subject' => 'Your Battle has Ended in a Tie'
 			),
 
 			//notify admin of a tie
 			'admin.battle.tie' => array(
-				'subject' => 'A battle ended in a tie'
+				'subject' => 'A Battle Ended in a Tie'
 			),
 
 		);
@@ -204,7 +204,8 @@ class V2WMailer
 	public static function admins() 
 	{
 		return array(
-			'chris@wearespry.com'
+			'mike@vote2wear.com',
+			'emil@vote2wear.com'
 		);
 	}
 }

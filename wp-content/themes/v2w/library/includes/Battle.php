@@ -18,6 +18,10 @@ class Battle {
 	//design objects
 	protected $design_a;
 	protected $design_b;
+	
+	// Voters
+	protected $voters_a;
+	protected $voters_b;
 
 	/**
 	 *	Constructor
@@ -204,6 +208,16 @@ class Battle {
 			return new WP_Error('invalid', 'Method only supports votes for Design A or Design B');
 
 		$vote = Votes::place( $this, $this->{$key}, $user );
+		
+		if ($key === 'design_a')
+		{
+			voters_a.push($user);
+			console.log( voters_a );
+		} else
+		{
+			voters_b.push($user);
+			console.log( voters_b );
+		}
 
 		return $vote;
 

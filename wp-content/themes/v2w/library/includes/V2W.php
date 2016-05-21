@@ -584,9 +584,6 @@ class V2W {
 			'lastname' => $data['lastname'],
 			'email' => $data['email']
 		));
-		
-		//Send new User to GetResponse
-		//register_via_get_response($wpuser);
 
 		//@ToDo: Handle Shopp register failure. At this point
 		//		 the WP user is created. What now?
@@ -602,21 +599,6 @@ class V2W {
 		//all good. return user ID
 		return $wpuser;
 
-	}
-	
-	
-	/**
-	* Send new User to GetResponse
-	*/
-	public static function register_via_get_response($wpuser)
-	{
-		//self::dd($wpuser);
-		/* POST /contacts
-			"name": $wpuser['first_name'],
-			"email": $wpuser['user_email'],
-			"campaign": {
-				"campaignId": "38971503"
-			} */
 	}
 	
 	/**
