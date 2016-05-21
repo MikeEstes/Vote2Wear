@@ -111,7 +111,7 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 	
-	function registerGetResponse( data ) {
+	/* function registerGetResponse( data ) {
 		$.ajax({
 			url: "https://api.getresponse.com/v3",
 			type: "POST",
@@ -132,7 +132,7 @@ jQuery(document).ready(function($) {
 			alert(thrownError);
 			}
 		});
-	}
+	} */
 });
 
 </script>
