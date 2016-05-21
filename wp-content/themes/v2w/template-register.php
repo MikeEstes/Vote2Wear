@@ -8,8 +8,7 @@
             <div class="col left">
                 <div class="inside">
     
-                    <h1 class="page-title">Create Account</h1>
-					
+                    <h1 class="page-title">Create Account</h1>					
                     <div class="divider"></div>
                         
                     <form action="<?php echo get_option('siteurl'); ?>" method="post" id="form-register" name="join">
@@ -68,6 +67,7 @@
 	</div>
 </main>
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 
@@ -113,26 +113,27 @@ jQuery(document).ready(function($) {
 	
 	function registerGetResponse( data )
 {
-requestNumber = JSONRequest.post(
-    "https://api.getresponse.com/v3",
-    {
-        "name": data.firstname,
-        "email": data.email,
-        "campaign": {
-			"campainId": "p3CQ3"
-		}
-    },
-    function (requestNumber, value, exception) {
-        if (value) {
-            processResponse(value);
-        } else {
-            processError(exception);
+	$.ajax({
+		url: "https://api.getresponse.com/v3",
+		type: "POST",
+		data: { "name": data.firstname, "email": data.email, "campaign": { "campainId": "p3CQ3" } },
+		dataType: "json",
+		success: function (result) {
+            switch (result) {
+                case true:
+                    processResponse(result);
+                    break;
+                default:
+                    resultDiv.html(result);
+            }
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+        alert(xhr.status);
+        alert(thrownError);
         }
-    }
-); 
-}
+    });
+};
 
-});
 </script>
 
 <?php get_footer(); ?>
