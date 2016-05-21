@@ -102,7 +102,7 @@ jQuery(document).ready(function($) {
 			} else 
 			{
 				// Registers the New User with GetResponse, after we've validated the form, and created the User.
-				registerGetResponse( data );
+				//registerGetResponse( data );
 				window.location.replace( r.redirect );
 			}
 
