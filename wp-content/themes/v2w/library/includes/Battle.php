@@ -203,6 +203,7 @@ class Battle {
 
 		$design = strtolower($design);
 		$key = 'design_' . $design;
+		V2W::dd($key);
 		//alert( "Test Alert Works!" );
 		//alert( $key );
 
