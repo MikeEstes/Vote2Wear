@@ -209,6 +209,8 @@ class Battle {
 
 		$vote = Votes::place( $this, $this->{$key}, $user );
 		
+		console.log ( $key );
+			
 		if ($key === 'design_a')
 		{
 			$voters_a.push($user);
@@ -217,10 +219,6 @@ class Battle {
 		{
 			$voters_b.push($user);
 			console.log( $voters_b );
-		}
-		else
-		{
-			console.log ( $key );
 		}
 
 		return $vote;
