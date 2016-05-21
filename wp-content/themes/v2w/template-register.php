@@ -9,6 +9,8 @@
                 <div class="inside">
     
                     <h1 class="page-title">Create Account</h1>
+					
+                    <div class="divider"></div>
                         
                     <form action="<?php echo get_option('siteurl'); ?>" method="post" id="form-register" name="join">
     
