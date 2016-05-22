@@ -18,10 +18,6 @@ class Battle {
 	//design objects
 	protected $design_a;
 	protected $design_b;
-	
-	// Voters
-	protected $voters_a;
-	protected $voters_b;
 
 	/**
 	 *	Constructor
@@ -203,24 +199,11 @@ class Battle {
 
 		$design = strtolower($design);
 		$key = 'design_' . $design;
-		V2W::dd($key);
-		//alert( "Test Alert Works!" );
-		//alert( $key );
 
 		if( !in_array($design, array('a', 'b')) )
 			return new WP_Error('invalid', 'Method only supports votes for Design A or Design B');
 
 		$vote = Votes::place( $this, $this->{$key}, $user );		
-			
-		/* if ($key === 'design_a')
-		{
-			//$voters_a.push($user);
-			alert( $voters_a );
-		} else if ($key === 'design_b')
-		{
-			//$voters_b.push($user);
-			alert( $voters_b );
-		} */
 
 		return $vote;
 
