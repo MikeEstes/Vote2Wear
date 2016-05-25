@@ -97,14 +97,17 @@
 				<ul class="top">
 					<li class="first"><a href="#" class="menu-trigger" id="mobile-menu-trigger"></a></li>
 					<li class="mid"><a href="<?php echo get_option('siteurl'); ?>" class="logo"></a></li>
-					<li class="last">
+					<li class="last login-url"><!-- /Added Logout Button -->
 						<?php if( is_user_logged_in() ) : ?>
 							<?php $current_user = wp_get_current_user(); ?>
 							<a href="<?php echo get_option('siteurl'); ?>/shop/account"><?php echo $current_user->user_login; ?></a>
+							<li class="logout-url">
+								<a href="<?php echo get_option('siteurl'); ?>/shop/account/?logout" class="logout">Logout</a>
+							</li>
 						<?php else : ?>
-							<a href="<?php echo get_option('siteurl'); ?>/login">Log In</a>
+							<a href="<?php echo get_option('siteurl'); ?>/login">Login</a>
 						<?php endif; ?>
-					</li>
+					</li><!-- /Added Logout Button -->
 				</ul>
 			</div>
 	
@@ -118,6 +121,7 @@
 						<input type="text" name="s" value="" placeholder="Search" />
 					</form>
 				</div>
+				
 				<nav id="mobile-nav">
 					<?php wp_nav_menu(array(
 						'theme_location' => 'foot-nav',
