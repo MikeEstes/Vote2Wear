@@ -99,7 +99,7 @@
 					<li class="mid"><a href="<?php echo get_option('siteurl'); ?>" class="logo"></a></li>
 					<li class="last"><!-- /Added Logout Button -->
 						<?php if( is_user_logged_in() ) : ?>
-								<a href="<?php echo get_option('siteurl'); ?>/shop/account/?logout" class="logout">Logout</a>
+							<a href="<?php echo get_option('siteurl'); ?>/shop/account/?logout" class="logout">Logout</a>
 						<?php else : ?>
 							<a href="<?php echo get_option('siteurl'); ?>/login">Login</a>
 						<?php endif; ?>
@@ -127,4 +127,4 @@
 			</div>
 
 		</div>
-	</header>Logout
+	</header>
