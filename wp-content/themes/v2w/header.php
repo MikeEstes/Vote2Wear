@@ -97,13 +97,9 @@
 				<ul class="top">
 					<li class="first"><a href="#" class="menu-trigger" id="mobile-menu-trigger"></a></li>
 					<li class="mid"><a href="<?php echo get_option('siteurl'); ?>" class="logo"></a></li>
-					<li class="last login-url"><!-- /Added Logout Button -->
+					<li class="last"><!-- /Added Logout Button -->
 						<?php if( is_user_logged_in() ) : ?>
-							<?php $current_user = wp_get_current_user(); ?>
-							<a href="<?php echo get_option('siteurl'); ?>/shop/account"><?php echo $current_user->user_login; ?></a>
-							<li class="logout-url">
-								<a href="<?php echo get_option('siteurl'); ?>/shop/account/?logout" class="logout">Logout</a>
-							</li>
+							<a href="<?php echo get_option('siteurl'); ?>/shop/account/?logout" class="logout">Logout</a>
 						<?php else : ?>
 							<a href="<?php echo get_option('siteurl'); ?>/login">Login</a>
 						<?php endif; ?>
