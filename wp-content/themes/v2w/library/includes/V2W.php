@@ -301,7 +301,7 @@ class V2W {
 					$sku = "{$design->get_post_id()}-{$code}-{$color}-{$final_size}";
 
 					//build price
-					$price = (in_array($_size_menu , array('2XL', '3XL', '4XL'))) ? 22.00 : 20.00;
+					$price = (in_array($_size_menu , array('2XL', '3XL', '4XL'))) ? 18.00 : 16.00;
 					
 					if( $code == '3900' && in_array($_size_menu , array('3XL', '4XL')) )
 					{	
