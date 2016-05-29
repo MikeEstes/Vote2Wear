@@ -364,7 +364,7 @@ class Design {
 
 		//All good. Notify user
 		V2WMailer::send('design.submit', $designer->get_email() );
-		mail('admin@vote2wear.com', 'Design \"' . $design[2] . '\" has been Submitted!', 'Please review the submitted design at your earliest convenience!');		
+		mail('admin@vote2wear.com', 'A New Design has been Submitted!', 'Please review the submitted design at your earliest convenience!');		
 
 		//success
 		V2W::json(array(
