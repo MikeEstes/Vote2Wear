@@ -114,7 +114,7 @@
 			ele.html(label);
 
 			if( label.indexOf('Size') != -1 ) {
-				if( label.indexOf('22') !== -1 ) {
+				if( label.indexOf('18') !== -1 ) {
 					$('#price .amt').html('$18.00');
 				}else {
 					$('#price .amt').html('$16.00');
