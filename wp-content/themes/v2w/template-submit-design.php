@@ -213,6 +213,7 @@
 
 
                         <span>Success! Your shirt design has been submitted.</span><br /><br />
+						<a href="<?php echo get_permalink(56); ?>" class="btn2">Submit Another</a>
                         <a href="<?php echo get_option('siteurl'); ?>" class="btn2">Vote Daily Battles</a>
 
 
